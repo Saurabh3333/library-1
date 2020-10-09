@@ -20,6 +20,9 @@ class LogInTest {
         
         String otherName = "Tom";
         String otherPass = "9876543210";
+        
+        String secondName = "Jack";
+        String secondPass = "123";
 
         assertEquals(logIn.checkLoginAndPass(realName, realPass), true);
         assertEquals(logIn.checkLoginAndPass(fakeName, fakePass), false);
